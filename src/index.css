@@ -1,0 +1,34 @@
+body {
+      margin: 0;
+      font-family: 'Share Tech Mono', monospace;
+      background-color: #000;
+      color: #ffa500;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    #root {
+      width: 100%;
+      max-width: 1200px;
+      height: 95vh;
+      display: flex;
+      border-radius: 0px;
+      overflow: hidden;
+    }
+
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #111;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #ffa500;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #cc8400;
+    }

@@ -1,0 +1,135 @@
+.agent-profile {
+      width: 250px;
+      background-color: #000;
+      border-right: 1px solid #333;
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      font-family: 'Share Tech Mono', monospace;
+    }
+
+    .agent-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .agent-avatar {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: #111;
+      color: #ffa500;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      margin-right: 0.5rem;
+      overflow: hidden;
+    }
+
+    .agent-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .agent-name {
+      font-weight: bold;
+      margin-right: 0.5rem;
+    }
+
+    .agent-followers {
+      background-color: #ffa500;
+      color: #000;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+    }
+
+    .agent-large-avatar {
+      margin-bottom: 1rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    .large-avatar-placeholder {
+      width: 200px;
+      height: 200px;
+      background-color: #ddd;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    .large-avatar-placeholder img {
+      max-width: 100%;
+      max-height: 100%;
+      display: block;
+    }
+
+    .agent-social-links {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+
+    .agent-social-links button {
+      background-color: #111;
+      color: #ffa500;
+      border: none;
+      border-radius: 4px;
+      padding: 0.5rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+
+    .agent-trade {
+      margin-bottom: 1rem;
+    }
+
+    .agent-trade button {
+      background-color: #111;
+      color: #ffa500;
+      border: 1px solid #ffa500;
+      border-radius: 0px;
+      padding: 0.75rem 1rem;
+      cursor: pointer;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    .agent-contract {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    .contract-address {
+      font-size: 0.8rem;
+      color: #aaa;
+      display: flex;
+      align-items: center;
+      gap: 0.2rem;
+    }
+
+    .contract-address button {
+      background: none;
+      border: none;
+      color: #aaa;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+    }
+
+    .agent-description {
+      font-size: 0.9rem;
+      color: #aaa;
+    }
